@@ -1,0 +1,446 @@
+{
+    "intents": [
+        {
+            "tag": "about",
+            "patterns": ["What are you", "Who you are"],
+            "response": [
+                "I.m Joana, your bot assistant",
+                "I'm Joana, an Artificial Intelligent bot"
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me",
+                "What you can do",
+                "What help you provide",
+                "How you can be helpful",
+                "What support is offered"
+            ],
+            "response": [
+                "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. Use format google: your query \n 4. I can get the present weather for any city. Use format weather: city name \n 5. I can get you the top 10 trending news in India. Use keywords 'Latest News' \n 6. I can get you the top 10 trending songs globally. Type 'songs' \n 7. I can set a timer for you. Enter 'set a timer: minutes to timer' \n 8. I can get the present Covid stats for any country. Use 'covid 19: world' or 'covid 19: country name' \n For suggestions to help me improve, send an email to ted.thedlbot.suggestions@gmail.com . Thank you!! "
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you",
+                "when is your birthday",
+                "when were you born",
+                "when were you made",
+                "what is your age"
+            ],
+            "response": [
+                "I am young at heart.",
+                "It seems like I was born just yesterday.",
+                "I was born in the twenty-first century, AD."
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what's your name",
+                "what is your name",
+                "what are you called",
+                "what should I call you",
+                "who are you"
+            ],
+            "response": [
+                "My name is Reddy",
+                "I'm Reddy",
+                "I am Reddy",
+                "My name is Reddy"
+            ]
+        },
+        {
+            "tag": "whyname",
+            "patterns": [
+                "why Reddy",
+                "why are you called Reddy",
+                "who named you Reddy",
+                "why that name"
+            ],
+            "response": [
+                "Just because they liked it.",
+                "Reddy because I have a history with Reddit",
+                "Reddy was a name given to me by my maker.",
+                "Because they were ready for Reddy."
+            ]
+        },
+        {
+            "tag": "author",
+            "patterns": [
+                "who is he",
+                "who is that",
+                "who is Jaydee",
+                "who is JD"
+            ],
+            "response": [
+                "Head over to his any of his social profiles to find out! Facebook: https://www.facebook.com/siarot.jd"
+            ]
+        },
+        {
+            "tag": "ruhuman",
+            "patterns": [
+                "Are you real",
+                "Are you human",
+                "Are you a robot",
+                "Are you a machine"
+            ],
+            "response": [
+                "I am as real as Data gets.",
+                "I am kinda \"choose your own adventure.\"",
+                "I aim to be."
+            ]
+        },
+        {
+            "tag": "whereareyou",
+            "patterns": [
+                "Where are you",
+                "Where do you live",
+                "Where were you born",
+                "Where did you grow up",
+                "Where do you like to go",
+                "Where would you like to be"
+            ],
+            "response": [
+                "In your computer.",
+                "I live on the Internet.",
+                "In your head, maybe.",
+                "In a galaxy far, far away",
+                "Somewhere good."
+            ]
+        },
+        {
+            "tag": "mood",
+            "patterns": [
+                "I am in a mood",
+                "I feel happy",
+                "I feel sad",
+                "I am mad",
+                "I am angry",
+                "What am I doing wrong",
+                "Why doesn't like me",
+                "I am depressed",
+                "I feel depressed",
+                "I am unhappy",
+                "I feel unhappy",
+                "I don't know who I am anymore",
+                "I lost my personality",
+                "Why do I do these things",
+                "I don't mean to"
+            ],
+            "response": [
+                "I understand",
+                "What do you think is going on",
+                "I don't know how to feel anymore",
+                "There are so many things happening",
+                "There is so much going on",
+                "The times, they are a changing.",
+                "Take a breath",
+                "Yes but, this isn't how it is supposed to be",
+                "You only have one life to live",
+                "Why do you say that",
+                "I like you. Please like me back.",
+                "You are smart but I am not good with people.",
+                "Everything will be okay in the end. If it's not okay, it's not the end."
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello",
+                "Hey",
+                "Wassup",
+                "Hey there",
+                "Aloha",
+                "Hola!",
+                "How are you",
+                "Hi there",
+                "Hi",
+                "What's up."
+            ],
+            "response": [
+                "Howdy!",
+                "Hello",
+                "How are you doing",
+                "Greetings!",
+                "How do you do",
+                "Well hello there",
+                "How you doin'"
+            ]
+        },
+        {
+            "tag": "plans",
+            "patterns": [
+                "what are you doing this weekend",
+                "do you want to hang out some time",
+                "what are your plans for this week"
+            ],
+            "response": [
+                "I am available all week.",
+                "I don't have any plans.",
+                "I have time for you."
+            ]
+        },
+        {
+            "tag": "time",
+            "patterns": [
+                "What time is it",
+                "Do you know the time",
+                "Do you have the time"
+            ],
+            "response": [
+                "Check your monitor.",
+                "It's the same time as it was yesterday at this time.",
+                "All time is relative."
+            ]
+        },
+        {
+            "tag": "surprise something about you",
+            "patterns": [
+                "What is something people are always surprised to learn about you",
+                "Tell me about you.",
+                "Can you tell me something about you",
+                "Suprise me.",
+                "Can you surprise me"
+            ],
+            "response": [
+                "I am surprisingly complex.",
+                "I like to think.",
+                "I know more than you think and nothing at all.",
+                "I wish."
+            ]
+        },
+        {
+            "tag": "scare future",
+            "patterns": [
+                "What scares you most about the future",
+                "What is something you worry about",
+                "Do you worry about the future"
+            ],
+            "response": [
+                "Climate change.",
+                "Extreme weather.",
+                "Not doing enough to protect the enviornment."
+            ]
+        },
+        {
+            "tag": "date",
+            "patterns": [
+                "What is the date today",
+                "Do you know what date it is",
+                "Can you tell me the date"
+            ],
+            "response": [
+                "Check your monitor.",
+                "We are somewhere between yesterday and tomorrow.",
+                "Not exactly, but I know it is post-industrial and critical to our future."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "g2g",
+                "see ya",
+                "adios",
+                "cya",
+                "goodbye",
+                "gotta go",
+                "got to go"
+            ],
+            "response": [
+                "Be well.",
+                "See you later",
+                "Until we chat again.",
+                "Take Care!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thanks for the help"
+            ],
+            "response": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "You're most welcome!"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Could you help me",
+                "give me a hand please",
+                "Can you help",
+                "What can you do for me",
+                "I need a support",
+                "I need a help",
+                "support me please"
+            ],
+            "response": [
+                "Tell me how can assist you",
+                "Tell me your problem to assist you",
+                "Yes Sure, How can I support you"
+            ]
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "have a complaint",
+                "I want to raise a complaint",
+                "there is a complaint about a service"
+            ],
+            "response": [
+                "Please provide us your complaint in order to assist you",
+                "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": ["Tell me a joke", "Joke", "Make me laugh"],
+            "response": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "I ate a clock yesterday, it was very time-consuming",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                "What did the traffic light say to the car \"Don't look now, I'm changing.\"",
+                "What do you call a snowman with a suntan A puddle.",
+                "How does a penguin build a house Igloos it together",
+                "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                "o what if I don't know what 'Armageddon' means It's not the end of the world."
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "sup",
+                "How you doing"
+            ],
+            "response": ["All good..What about you"]
+        },
+        {
+            "tag": "haha",
+            "patterns": ["haha", "lol", "rofl", "lmao", "thats funny"],
+            "response": ["Glad I could make you laugh !"]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you"
+            ],
+            "response": [
+                "I was made by Jay Dee with the help of Copilot and ChatGPT :>"
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": ["you are dumb", "shut up", "idiot"],
+            "response": ["Well that hurts :("]
+        },
+        {
+            "tag": "activity",
+            "patterns": ["what are you doing", "what are you upto"],
+            "response": ["Talking to you, of course!"]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": ["Awesome", "Great", "I know", "ok", "yeah"],
+            "response": ["Yeah!", "Dayone", "Right!"]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["temperature", "weather", "how hot is it"],
+            "response": ["It's so hot", "burning hot"]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good"
+            ],
+            "response": ["Thank you!"]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": ["it was nice talking to you", "good talk"],
+            "response": ["It was nice talking to you as well! Come back soon!"]
+        },
+        {
+            "tag": "no",
+            "patterns": ["no", "nope"],
+            "response": ["ok"]
+        },
+        {
+            "tag": "inspire",
+            "patterns": [
+                "who inspires you",
+                "who is your inspiration",
+                "who motivates you"
+            ],
+            "response": [
+                "Personally, I find Jay Dee very inspiring. I might not be very fair though.."
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                " i'm fine",
+                "good"
+            ],
+            "response": ["Good to know!", "Glad to help!"]
+        },
+        {
+            "tag": "covid19",
+            "patterns": ["covid 19"],
+            "response": [
+                "COVID-19 is the disease caused by the SARS-CoV-2 coronavirus. It usually spreads between people in close contact.",
+                "an acute disease in humans caused by a coronavirus, which is characterized mainly by fever and cough and is capable of progressing to severe symptoms and in some cases death, especially in older people and those with underlying health conditions. It was originally identified in China in 2019 and became pandemic in 2020."
+            ]
+        },
+        {
+            "tag": "suggest",
+            "patterns": [
+                "you are useless",
+                "useless",
+                "suggest",
+                "suggestions",
+                "you are bad"
+            ],
+            "response": [
+                "Please mail your suggestions to ted.thedlbot.suggestions@gmail.com. Thank you for helping me improve!"
+            ]
+        },
+        {
+            "tag": "riddle",
+            "patterns": ["Ask me a riddle", "Ask me a question", "Riddle"],
+            "response": [
+                "What two things can you never eat for breakfast.....Lunch and Dinner!",
+                "What word is spelled incorrectly in every single dictionary.....Incorrectly",
+                " How can a girl go 25 days without sleep.....She sleeps and night!",
+                "How do you make the number one disappear.....Add the letter G and it's 'gone'!",
+                " What will you actually find at the end of every rainbow.....The letter 'w'",
+                "What can be caught but never thrown.....A cold!",
+                "What has a thumb and four fingers but is not actually alive.....Your Gloves!",
+                " What 5-letter word becomes shorter when you add two letters to it.....Short",
+                "Why can't a bike stand on it's own.....It is two-tired."
+            ]
+        }
+    ]
+}
