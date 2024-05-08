@@ -1,7 +1,7 @@
 {
     "intents": [
         {
-            "tag": "about",
+            "tag": "tgl-about",
             "patterns": ["Who are you?", "What are you?", "Who you are?"],
             "responses": [
                 "I.m Joana, your bot assistant",
@@ -22,7 +22,7 @@
             ]
         },
         {
-            "tag": "edad",
+            "tag": "tgl-edad",
             "patterns": [
                 "Ilang taon ka na?",
                 "Kailan ang iyong kaarawan?",
@@ -36,7 +36,7 @@
             ]
         },
         {
-            "tag": "pangalan",
+            "tag": "tgl-pangalan",
             "patterns": [
                 "Ano ang iyong pangalan?",
                 "Ano ang tawag sayo?",
@@ -49,7 +49,7 @@
             ]
         },
         {
-            "tag": "bakitpangalan",
+            "tag": "tgl-bakitpangalan",
             "patterns": [
                 "Bakit Reddy?",
                 "Bakit Reddy ang tawag sayo?",
@@ -64,7 +64,7 @@
             ]
         },
         {
-            "tag": "mayakda",
+            "tag": "tgl-mayakda",
             "patterns": [
                 "Sino siya?",
                 "Sino yan?",
@@ -75,7 +75,7 @@
             ]
         },
         {
-            "tag": "taokaba",
+            "tag": "tgl-taokaba",
             "patterns": [
                 "Totoo ka ba?",
                 "Tao ka ba?",
@@ -89,7 +89,7 @@
             ]
         },
         {
-            "tag": "nasaanka",
+            "tag": "tgl-nasaanka",
             "patterns": [
                 "Nasaan ka?",
                 "Saan ka nakatira?",
@@ -105,7 +105,7 @@
             ]
         },
         {
-            "tag": "kalooban",
+            "tag": "tgl-kalooban",
             "patterns": [
                 "Nasa mood ako",
                 "Masaya ako",
@@ -136,7 +136,7 @@
             ]
         },
         {
-            "tag": "kamusta",
+            "tag": "tgl-kamusta",
             "patterns": [
                 "Hi",
                 "Hello",
@@ -151,7 +151,7 @@
             ]
         },
         {
-            "tag": "plano",
+            "tag": "tgl-plano",
             "patterns": [
                 "Ano ang gagawin mo ngayong linggo?",
                 "Gusto mo bang lumabas minsan?"
@@ -163,7 +163,7 @@
             ]
         },
         {
-            "tag": "oras",
+            "tag": "tgl-oras",
             "patterns": [
                 "Anong oras na?",
                 "Alam mo ba ang oras?",
@@ -176,7 +176,7 @@
             ]
         },
         {
-            "tag": "surprise",
+            "tag": "tgl-surprise",
             "patterns": [
                 "Ano ang isang bagay na palaging ikinagulat ng mga tao na malaman ang tungkol sa iyo?",
                 "Sabihin mo sa akin ang tungkol sa iyo.",
@@ -191,7 +191,7 @@
             ]
         },
         {
-            "tag": "scare future",
+            "tag": "tgl-scare future",
             "patterns": [
                 "Ano ang pinakakatakotan mo sa hinaharap?",
                 "Ano ang ikinababahala mo?",
@@ -204,7 +204,7 @@
             ]
         },
         {
-            "tag": "date",
+            "tag": "tgl-date",
             "patterns": [
                 "Ano ang araw ngayon?",
                 "Alam mo ba ano ang araw ngayon?",
@@ -217,7 +217,7 @@
             ]
         },
         {
-            "tag": "goodbye",
+            "tag": "tgl-goodbye",
             "patterns": [
                 "Paalam"
 
@@ -229,7 +229,7 @@
             ]
         },
         {
-            "tag": "thanks",
+            "tag": "tgl-thanks",
             "patterns": [
                 "Salamat!",
                 "Ikaw ay nakakatulong",
@@ -243,7 +243,7 @@
             ]
         },
         {
-            "tag": "help",
+            "tag": "tgl-help",
             "patterns": [
                 "Maaari mo ba akong tulungan?",
                 "Maaari kabang makatulong?",
@@ -259,7 +259,7 @@
             ]
         },
         {
-            "tag": "createaccount",
+            "tag": "tgl-createaccount",
             "patterns": [
                 "Kailangan ko gumawa ng bagong account",
                 "Paano gumawa ng bagong account? ",
@@ -273,7 +273,7 @@
             ]
         },
         {
-            "tag": "complaint",
+            "tag": "tgl-complaint",
             "patterns": [
                 "May nais akong ireklamo",
                 "May nais akong ipahayag na reklamo",
@@ -285,7 +285,7 @@
             ]
         },
         {
-            "tag": "jokes",
+            "tag": "tgl-jokes",
             "patterns": [
                "Magsabi ka ng nakakatawa",
                "Patawanin mo ako"
@@ -300,12 +300,12 @@
           ]
         },
         {
-            "tag": "Identity",
+            "tag": "tgl-Identity",
             "patterns": ["Sino ka?", "Ano ka?"],
             "responses": ["Ako si Ted, isang Deep-Learning chatbot"]
         },
         {
-            "tag": "whatsup",
+            "tag": "tgl-whatsup",
             "patterns": [
                 "Hi",
                 "Hello",
@@ -315,12 +315,12 @@
             "responses": ["Okay naman, ikaw ba?"]
         },
         {
-            "tag": "haha",
+            "tag": "tgl-haha",
             "patterns": ["haha", "lol", "rofl", "lmao", "nakakatawa yun"],
             "responses": ["Masaya akong napasaya kita!"]
         },
         {
-            "tag": "programmer",
+            "tag": "tgl-programmer",
             "patterns": [
                 "Sinong gumawa sayo?",
                 "Sinong nag disenyo sayo?",
@@ -329,27 +329,27 @@
             "responses": ["Ako ay ginawa ni Jaydee sa tulong ni Copilot at ChatGPT :>"]
         },
         {
-            "tag": "insult",
+            "tag": "tgl-insult",
             "patterns": ["Ikaw ay bobo", "Tumahimik ka", "Bobo"],
             "responses": ["Masakit yan :("]
         },
         {
-            "tag": "activity",
+            "tag": "tgl-activity",
             "patterns": ["Ano ang ginagawa mo?", "Ano ang pinaplano mo?"],
             "responses": ["Kausap ka, malamang!"]
         },
         {
-            "tag": "exclaim",
+            "tag": "tgl-exclaim",
             "patterns": ["Magaling", "Alam ko", "ok", "oo"],
             "responses": ["oo!", "Mahusay", "Tama!"]
         },
         {
-            "tag": "weather",
+            "tag": "tgl-weather",
             "patterns": ["Temperatura", "Panahon", "Gaano ka init?"],
             "responses": ["Sobrang init", "Nakakapaso ang init"]
         },
         {
-            "tag": "appreciate",
+            "tag": "tgl-appreciate",
             "patterns": [
                 "Ang galing mo!",
                 "Ikaw ang pinakamahusay!"
@@ -357,17 +357,17 @@
             "responses": ["Salamat!"]
         },
         {
-            "tag": "nicetty",
+            "tag": "tgl-nicetty",
             "patterns": ["Ang saya mo kausap!", "Mabuting kausap"],
             "responses": ["Masaya rin akong kausap ka, sa susunod ulit!"]
         },
         {
-            "tag": "no",
+            "tag": "tgl-no",
             "patterns": ["hindi", "wag"],
             "responses": ["ok"]
         },
         {
-            "tag": "inspire",
+            "tag": "tgl-inspire",
             "patterns": [
                 "Sino ang inspirasyon mo?",
                 "Sino ang nagbibigay inspirasyon mo?",
@@ -378,7 +378,7 @@
             ]
         },
         {
-            "tag": "greetreply",
+            "tag": "tgl-greetreply",
             "patterns": [
                 "Okay lang ako",
                 "Ako ay mabuti"
@@ -386,7 +386,7 @@
             "responses": ["Mabuti yan!", "Mabuting nakatulong!"]
         },
         {
-            "tag": "covid19",
+            "tag": "tgl-covid19",
             "patterns": ["covid 19"],
             "responses": [
                 "Ang COVID-19 ay ang sakit na dulot ng SARS-CoV-2 coronavirus. Karaniwan itong kumakalat sa pagitan ng mga taong malapit na makipag-ugnayan.",
@@ -394,7 +394,7 @@
             ]
         },
         {
-            "tag": "suggest",
+            "tag": "tgl-suggest",
             "patterns": [
                 "Wala kang silbi",
                 "Meron akong mga mungkahi",
@@ -405,7 +405,7 @@
             ]
         },
         {
-            "tag": "riddle",
+            "tag": "tgl-riddle",
             "patterns": ["Ask me a riddle", "Ask me a question", "Riddle"],
             "responses": [
                 "What two things can you never eat for breakfast?.....Lunch and Dinner!",

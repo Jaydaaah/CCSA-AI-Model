@@ -1,7 +1,7 @@
 {
     "intents": [
         {
-            "tag": "tgl-about",
+            "tag": "ceb-about",
             "patterns": [
                 "Unsaon nimo pagtabang nako?",
                 "Unsa imong mabuhat?",
@@ -14,7 +14,7 @@
             ]
         },
         {
-            "tag": "edad",
+            "tag": "ceb-edad",
             "patterns": [
                 "Pilay edad nimo?",
                 "Kanus-a imong adlaw nga natawhan?",
@@ -28,7 +28,7 @@
             ]
         },
         {
-            "tag": "pangalan",
+            "tag": "ceb-pangalan",
             "patterns": [
                 "Unsa imong pangalan?",
                 "Unsay tawag nimo?",
@@ -41,7 +41,7 @@
             ]
         },
         {
-            "tag": "bakitpangalan",
+            "tag": "ceb-bakitpangalan",
             "patterns": [
                 "Nganong Reddy?",
                 "Nganong Reddy ang ginatawag sa imoha?",
@@ -56,7 +56,7 @@
             ]
         },
         {
-            "tag": "mayakda",
+            "tag": "ceb-mayakda",
             "patterns": [
                 "Kinsa siya?",
                 "Kinsa na?",
@@ -67,7 +67,7 @@
             ]
         },
         {
-            "tag": "taokaba",
+            "tag": "ceb-taokaba",
             "patterns": [
                 "Tinuod ba ka?",
                 "Tao ba ka?",
@@ -81,7 +81,7 @@
             ]
         },
         {
-            "tag": "nasaanka",
+            "tag": "ceb-nasaanka",
             "patterns": [
                 "asa ka?",
                 "asa ka nagpuyo?",
@@ -97,7 +97,7 @@
             ]
         },
         {
-            "tag": "kalooban",
+            "tag": "ceb-kalooban",
             "patterns": [
                 "Naa ko sa mood",
                 "nalipay ko",
@@ -128,7 +128,7 @@
             ]
         },
         {
-            "tag": "kamusta",
+            "tag": "ceb-kamusta",
             "patterns": [
                 "Hi",
                 "Hello",
@@ -142,7 +142,7 @@
             ]
         },
         {
-            "tag": "plano",
+            "tag": "ceb-plano",
             "patterns": [
                 "Unsay imong buhaton karong semanaha??",
                 "ganahan ka mugawas usahay?"
@@ -154,7 +154,7 @@
             ]
         },
         {
-            "tag": "oras",
+            "tag": "ceb-oras",
             "patterns": [
                 "unsa nay oras?",
                 "kabalo ka unsa nay oras?",
@@ -167,7 +167,7 @@
             ]
         },
         {
-            "tag": "surprise",
+            "tag": "ceb-surprise",
             "patterns": [
                 "Unsa ang usa ka butang nga kanunay matingala sa mga tawo nga mahibal-an bahin kanimo?",
                 "Sultihi ko bahin sa imong kaugalingon.",
@@ -182,7 +182,7 @@
             ]
         },
         {
-            "tag": "future",
+            "tag": "ceb-future",
             "patterns": [
                 "Unsa ang imong labing gikahadlokan bahin sa umaabot?",
                 "Unsa imong gikabalak-an?",
@@ -195,7 +195,7 @@
             ]
         },
         {
-            "tag": "date",
+            "tag": "ceb-date",
             "patterns": [
                 "unsa nga adlaw karon?",
                 "Nahibal-an ba nimo kung unsang adlaw karon?",
@@ -208,7 +208,7 @@
             ]
         },
         {
-            "tag": "goodbye",
+            "tag": "ceb-goodbye",
             "patterns": [
                 "Paalam"
 
@@ -220,7 +220,7 @@
             ]
         },
         {
-            "tag": "thanks",
+            "tag": "ceb-thanks",
             "patterns": [
                 "Salamat!",
                 "Makatabang ka",
@@ -234,7 +234,7 @@
             ]
         },
         {
-            "tag": "help",
+            "tag": "ceb-help",
             "patterns": [
                 "pwede ba ko nimo tabangan?",
                 "Makatabang ka?",
@@ -250,7 +250,7 @@
             ]
         },
         {
-            "tag": "createaccount",
+            "tag": "ceb-createaccount",
             "patterns": [
                 "Kinahanglan ko maghimo ug bag-ong account",
                 "Unsaon paghimo ug bag-ong account? ",
@@ -264,7 +264,7 @@
             ]
         },
         {
-            "tag": "complaint",
+            "tag": "ceb-complaint",
             "patterns": [
                 "Naa koy ikareklamo",
                 "Gusto kong mopahayag og reklamo",
@@ -276,7 +276,7 @@
             ]
         },
         {
-            "tag": "jokes",
+            "tag": "ceb-jokes",
             "patterns": [
                "Isulti ang usa ka butang nga kataw-anan",
                "pakataw-a ko"
@@ -291,12 +291,12 @@
           ]
         },
         {
-            "tag": "Identity",
+            "tag": "ceb-Identity",
             "patterns": ["kinsa ka?", "unsa ka?"],
             "responses": ["Ako diay si Ted, isang Deep-Learning chatbot"]
         },
         {
-            "tag": "whatsup",
+            "tag": "ceb-whatsup",
             "patterns": [
                 "Hi",
                 "Hello",
@@ -306,12 +306,12 @@
             "responses": ["Okay lang, ikaw diay?"]
         },
         {
-            "tag": "haha",
+            "tag": "ceb-haha",
             "patterns": ["haha", "lol", "rofl", "lmao", "nakakatawa yun"],
             "responses": ["Nalipay ko na napalipay tika!"]
         },
         {
-            "tag": "programmer",
+            "tag": "ceb-programmer",
             "patterns": [
                 "kinsay nagbuhat nimo?",
                 "kinsay nag design nimo?",
@@ -320,27 +320,27 @@
             "responses": ["gibuhat ko ni Jaydee sa tabang ni Copilot ug ChatGPT :>"]
         },
         {
-            "tag": "insult",
+            "tag": "ceb-insult",
             "patterns": ["bogo man ka", "paghilom", "Bogo"],
             "responses": ["sakit kana :("]
         },
         {
-            "tag": "activity",
+            "tag": "ceb-activity",
             "patterns": ["unsa imong gibuhat?", "unsa imong giplano?"],
             "responses": ["Kasturya ka, malamang!"]
         },
         {
-            "tag": "exclaim",
+            "tag": "ceb-exclaim",
             "patterns": ["Maayo", "kabalo ko", "ok", "oo"],
             "responses": ["oo!", "hawd", "Tama!"]
         },
         {
-            "tag": "weather",
+            "tag": "ceb-weather",
             "patterns": ["Temperatura", "Panahon", "unsa ka init"],
             "responses": ["Sobra kainit", "makapaso ang init"]
         },
         {
-            "tag": "appreciate",
+            "tag": "ceb-appreciate",
             "patterns": [
                 "ka hawd nimo!",
                 "Ikaw ang pinakahawd!"
@@ -348,17 +348,17 @@
             "responses": ["Salamat!"]
         },
         {
-            "tag": "nicetty",
+            "tag": "ceb-nicetty",
             "patterns": ["Nalipay ka nga makig-istorya!", "Maayong panag-istoryahanay"],
             "responses": ["Nalipay usab ako nga makigsulti kanimo, sa sunod!"]
         },
         {
-            "tag": "no",
+            "tag": "ceb-no",
             "patterns": ["dili"],
             "responses": ["ok"]
         },
         {
-            "tag": "inspire",
+            "tag": "ceb-inspire",
             "patterns": [
                 "Kinsa imong inspirasyon??",
                 "Kinsa ang nagdasig kanimo??",
@@ -369,14 +369,14 @@
             ]
         },
         {
-            "tag": "greetreply",
+            "tag": "ceb-greetreply",
             "patterns": [
                 "Okay lang rako"
             ],
             "responses": ["maayo na maayo ang makatabang!"]
         },
         {
-            "tag": "covid19",
+            "tag": "ceb-covid19",
             "patterns": ["covid 19"],
             "responses": [
                 "Ang COVID-19 mao ang sakit nga gipahinabo sa SARS-CoV-2 coronavirus. Kasagaran kini mikaylap tali sa mga tawo nga suod nga kontak.",
@@ -384,7 +384,7 @@
             ]
         },
         {
-            "tag": "suggest",
+            "tag": "ceb-suggest",
             "patterns": [
                 "Wala kay pulos",
                 "Naa koy mga sugyot",
@@ -395,7 +395,7 @@
             ]
         },
         {
-            "tag": "riddle",
+            "tag": "ceb-riddle",
             "patterns": ["Ask me a riddle", "Ask me a question", "Riddle"],
             "responses": [
                 "What two things can you never eat for breakfast?.....Lunch and Dinner!",
