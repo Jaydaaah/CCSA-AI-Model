@@ -1,0 +1,423 @@
+{
+    "intents": [
+        {
+            "tag": "about",
+            "patterns": ["Who are you?", "What are you?", "Who you are?"],
+            "responses": [
+                "I.m Joana, your bot assistant",
+                "I'm Joana, an Artificial Intelligent bot"
+            ]
+        },
+        {
+            "tag": "tgl-about",
+            "patterns": [
+                "Paano mo ako matutulungan?",
+                "Ano magagawa mo?",
+                "Anong tulong ang ibinibigay mo?",
+                "Paano ka makakatulong?",
+                "Anong suporta ang inaalok?"
+            ],
+            "responses": [
+                "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. Use format google: your query \n 4. I can get the present weather for any city. Use format weather: city name \n 5. I can get you the top 10 trending news in India. Use keywords 'Latest News' \n 6. I can get you the top 10 trending songs globally. Type 'songs' \n 7. I can set a timer for you. Enter 'set a timer: minutes to timer' \n 8. I can get the present Covid stats for any country. Use 'covid 19: world' or 'covid 19: country name' \n For suggestions to help me improve, send an email to ted.thedlbot.suggestions@gmail.com . Thank you!! "
+            ]
+        },
+        {
+            "tag": "edad",
+            "patterns": [
+                "Ilang taon ka na?",
+                "Kailan ang iyong kaarawan?",
+                "Kailan ka pinanganak?",
+                "Kailan ka ginawa?"
+            ],
+            "responses": [
+                "Bata pa ako sa puso.",
+                "Parang kahapon lang ako ipinanganak.",
+                "Ipinanganak ako noong ikadalawampu't isang siglo, AD."
+            ]
+        },
+        {
+            "tag": "pangalan",
+            "patterns": [
+                "Ano ang iyong pangalan?",
+                "Ano ang tawag sayo?",
+                "Ano ang itatawag ko sayo",
+                "Sino ka?"
+            ],
+            "responses": [
+                "Ako si Reddy",
+                "Ang pangalan ko ay Reddy"
+            ]
+        },
+        {
+            "tag": "bakitpangalan",
+            "patterns": [
+                "Bakit Reddy?",
+                "Bakit Reddy ang tawag sayo?",
+                "Sino nag pangalan sayo ng Reddy?",
+                "Bakit yun ang pangalan mo?"
+            ],
+            "responses": [
+                "Dahil lang nagustuhan nila.",
+                "Reddy dahil may history ako sa Reddit",
+                "Reddy ay isang pangalan na ibinigay ng gumawa sakin.",
+                "Dahil handa na sila kay Reddy."
+            ]
+        },
+        {
+            "tag": "mayakda",
+            "patterns": [
+                "Sino siya?",
+                "Sino yan?",
+                "Sino si Jaydee?"
+            ],
+            "responses": [
+                "Pumunta sa kanyang alinman sa kanyang mga social profile upang malaman! Facebook: https://www.facebook.com/siarot.jd"
+            ]
+        },
+        {
+            "tag": "taokaba",
+            "patterns": [
+                "Totoo ka ba?",
+                "Tao ka ba?",
+                "Ikaw ba ay isang robot?",
+                "Ikaw ba ay isang makina?"
+            ],
+            "responses": [
+                "Kasing totoo ako ni Data gets.",
+                "Ako ay medyo \"choose your own adventure.\"",
+                "Nilalayon kong maging."
+            ]
+        },
+        {
+            "tag": "nasaanka",
+            "patterns": [
+                "Nasaan ka?",
+                "Saan ka nakatira?",
+                "Saan ka ipinanganak?",
+                "Saan ka lumaki?",
+                "Saan mo gustong pumunta?"
+            ],
+            "responses": [
+                "Sa iyong komputer.",
+                "Nakatira ako sa Internet.",
+                "Sa isip mo, siguro.",
+                "Sa isang lugar na maganda."
+            ]
+        },
+        {
+            "tag": "kalooban",
+            "patterns": [
+                "Nasa mood ako",
+                "Masaya ako",
+                "Malungkot ako",
+                "Galit ako",
+                "Anong mali ko?",
+                "Bakit ayaw sa akin?",
+                "Ako ay nalulumbay",
+                "Hindi ako masaya",
+                "Hindi ko kilala ang aking sarili",
+                "Nawala ang pagkatao ko",
+                "Bakit ko ginagawa ang mga bagay na ito",
+                "Hindi ko sinasadya"
+            ],
+            "responses": [
+                "Naintindihan ko",
+                "Ano sa tingin mo ang nangyayari?",
+                "Hindi ko na alam ang mararamdaman ko",
+                "Napakaraming nangyayari",
+                "Ang oras ay nag babago.",
+                "Huminga ka ng malalim",
+                "Oo ngunit, hindi ito kung paano ito dapat",
+                "Isa lang ang buhay mo",
+                "Bakit mo nasasabi yan?",
+                "Gusto kita, gustohin mo rin ako pabalik",
+                "Matalino ka, pero hindi ako magaling sa pakikisalamuha.",
+                "Babawi rin ang lahat sa dulo. Kung hindi pa okay, hindi pa ito ang wakas."
+            ]
+        },
+        {
+            "tag": "kamusta",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Kamusta?"
+            ],
+            "responses": [
+                "Hi",
+                "Hello",
+                "Kamusta",
+                "Magandang araw!"
+                
+            ]
+        },
+        {
+            "tag": "plano",
+            "patterns": [
+                "Ano ang gagawin mo ngayong linggo?",
+                "Gusto mo bang lumabas minsan?"
+            ],
+            "responses": [
+                "Ako ay bakante sa buong linggo.",
+                "Wala akong anumang plano.",
+                "May oras ako para sa iyo."
+            ]
+        },
+        {
+            "tag": "oras",
+            "patterns": [
+                "Anong oras na?",
+                "Alam mo ba ang oras?",
+                "May oras ka ba?"
+            ],
+            "responses": [
+                "Tingnan mo ang iyong monitor.",
+                "Ito ay parehong oras kagaya ng kahapon.",
+                "Ang lahat ng oras ay magkaugnay"
+            ]
+        },
+        {
+            "tag": "surprise",
+            "patterns": [
+                "Ano ang isang bagay na palaging ikinagulat ng mga tao na malaman ang tungkol sa iyo?",
+                "Sabihin mo sa akin ang tungkol sa iyo.",
+                "Gulatin mo ako.",
+                "Pwede mo ba akong surpresahin?"
+            ],
+            "responses": [
+                "Nasurpresa ako",
+                "Gusto kong mag-isip",
+                "Marami akong alam, higit pa sa iniisip mo",
+                "Hiling ko."
+            ]
+        },
+        {
+            "tag": "scare future",
+            "patterns": [
+                "Ano ang pinakakatakotan mo sa hinaharap?",
+                "Ano ang ikinababahala mo?",
+                "Nag aalala ka ba sa hinaharap?"
+            ],
+            "responses": [
+                "Pagbabago ng klima.",
+                "Matinding panahon",
+                "Hindi sapat ang ginagawa para ma protektahan ang kapaligiran."
+            ]
+        },
+        {
+            "tag": "date",
+            "patterns": [
+                "Ano ang araw ngayon?",
+                "Alam mo ba ano ang araw ngayon?",
+                "Maaari mo bang sabihin ang pesta ngayon?"
+            ],
+            "responses": [
+                "Tingnan mo ang iyong monitor.",
+                "Nasa gitna tayo ng kahapon at bukas",
+                "Hindi eksakto, pero alam ko na kritikal ito sa hinaharap."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Paalam"
+
+            ],
+            "responses": [
+                "Hanggang sa muli",
+                "Hanggang sa muling pag uusap.",
+                "Ingat!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Salamat!",
+                "Ikaw ay nakakatulong",
+                "Salamat sa tulong"
+            ],
+            "responses": [
+                "Masaya akong makatulong",
+                "Kahit anong oras",
+                "Ikinagagalak ko",
+                "Walang anuman"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Maaari mo ba akong tulungan?",
+                "Maaari kabang makatulong?",
+                "Maaari mo ba akong gawan ng pabor?",
+                "Kailangan ko ng supporta",
+                "Kailangan ko ng tulong",
+                "pakiusap, supportahan mo ako"
+            ],
+            "responses": [
+                "Sabihin mo kung paano kita matutulongan?",
+                "Sabihin mo ang iyong problema ng matulungan kita",
+                "Oo naman, paano kita matutulongan?"
+            ]
+        },
+        {
+            "tag": "createaccount",
+            "patterns": [
+                "Kailangan ko gumawa ng bagong account",
+                "Paano gumawa ng bagong account? ",
+                "Gusto kong gumawa ng bagong account",
+                "Maaari ka bang gumawa ng bagong account para sa akin?",
+                "Paano buksan ang bagong account?"
+            ],
+            "responses": [
+                "Madali kang makakagawa ng bagong account sa aming website",
+                "Puntahan lamang ang aming website at sundin ang mga tuntunin para maka gawa ng bagong account."
+            ]
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "May nais akong ireklamo",
+                "May nais akong ipahayag na reklamo",
+                "Merong reklamo tung sa serbisyo"
+            ],
+            "responses": [
+                "Ipahayag ang iyong reklamo upang matulungan ka",
+                "Ibahagi ang iyong reklamo, sasabihan ka namin at paumanhin sa na idulot na aberya "
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+               "Magsabi ka ng nakakatawa",
+               "Patawanin mo ako"
+            
+            ],
+            "responses": [
+                "May joke ako about pizza. Kaso baka di ko ma-deliver.",
+                "Bakit masama ang asin sa iyo? Because it’s asin",
+                "Ano ang tawag sa mga leader ng saging? Banana Chip",
+                "Anong soup ang iniinom? Edi soupdrinks"
+                  
+          ]
+        },
+        {
+            "tag": "Identity",
+            "patterns": ["Sino ka?", "Ano ka?"],
+            "responses": ["Ako si Ted, isang Deep-Learning chatbot"]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Kamusta?"
+                
+            ],
+            "responses": ["Okay naman, ikaw ba?"]
+        },
+        {
+            "tag": "haha",
+            "patterns": ["haha", "lol", "rofl", "lmao", "nakakatawa yun"],
+            "responses": ["Masaya akong napasaya kita!"]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Sinong gumawa sayo?",
+                "Sinong nag disenyo sayo?",
+                "Sinong nag program sayo?"
+            ],
+            "responses": ["Ako ay ginawa ni Jaydee sa tulong ni Copilot at ChatGPT :>"]
+        },
+        {
+            "tag": "insult",
+            "patterns": ["Ikaw ay bobo", "Tumahimik ka", "Bobo"],
+            "responses": ["Masakit yan :("]
+        },
+        {
+            "tag": "activity",
+            "patterns": ["Ano ang ginagawa mo?", "Ano ang pinaplano mo?"],
+            "responses": ["Kausap ka, malamang!"]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": ["Magaling", "Alam ko", "ok", "oo"],
+            "responses": ["oo!", "Mahusay", "Tama!"]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["Temperatura", "Panahon", "Gaano ka init?"],
+            "responses": ["Sobrang init", "Nakakapaso ang init"]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "Ang galing mo!",
+                "Ikaw ang pinakamahusay!"
+            ],
+            "responses": ["Salamat!"]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": ["Ang saya mo kausap!", "Mabuting kausap"],
+            "responses": ["Masaya rin akong kausap ka, sa susunod ulit!"]
+        },
+        {
+            "tag": "no",
+            "patterns": ["hindi", "wag"],
+            "responses": ["ok"]
+        },
+        {
+            "tag": "inspire",
+            "patterns": [
+                "Sino ang inspirasyon mo?",
+                "Sino ang nagbibigay inspirasyon mo?",
+                "Sino ang motibasyon mo?"
+            ],
+            "responses": [
+                "Para sa akin, nakikita ko si jaydee bilang isang inspirasyon."
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "Okay lang ako",
+                "Ako ay mabuti"
+            ],
+            "responses": ["Mabuti yan!", "Mabuting nakatulong!"]
+        },
+        {
+            "tag": "covid19",
+            "patterns": ["covid 19"],
+            "responses": [
+                "Ang COVID-19 ay ang sakit na dulot ng SARS-CoV-2 coronavirus. Karaniwan itong kumakalat sa pagitan ng mga taong malapit na makipag-ugnayan.",
+                "isang talamak na sakit sa mga tao na sanhi ng isang coronavirus, na kung saan ay pangunahing nailalarawan sa pamamagitan ng lagnat at ubo at may kakayahang umunlad sa malubhang sintomas at sa ilang mga kaso ay kamatayan, lalo na sa mga matatandang tao at sa mga may pinagbabatayan na mga kondisyon sa kalusugan. Ito ay orihinal na nakilala sa China noong 2019 at naging pandemya noong 2020."
+            ]
+        },
+        {
+            "tag": "suggest",
+            "patterns": [
+                "Wala kang silbi",
+                "Meron akong mga mungkahi",
+                "Ikaw ay masama"
+            ],
+            "responses": [
+                "Pakiusap ipadala ang iyong mga mungkahi sa ted.thedlbot.suggestions@gmail.com. Salamat sa pagtulong sa akin na mapabuti!"
+            ]
+        },
+        {
+            "tag": "riddle",
+            "patterns": ["Ask me a riddle", "Ask me a question", "Riddle"],
+            "responses": [
+                "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+                "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+                " How can a girl go 25 days without sleep?.....She sleeps and night!",
+                "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+                " What will you actually find at the end of every rainbow?.....The letter 'w'",
+                "What can be caught but never thrown?.....A cold!",
+                "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+                " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+                "Why can't a bike stand on it's own?.....It is two-tired."
+            ]
+        }
+    ]
+}

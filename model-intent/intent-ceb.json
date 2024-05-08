@@ -1,0 +1,413 @@
+{
+    "intents": [
+        {
+            "tag": "tgl-about",
+            "patterns": [
+                "Unsaon nimo pagtabang nako?",
+                "Unsa imong mabuhat?",
+                "Unsa nga tabang imong mabuhat?",
+                "Unsaon nimo pagtabang?",
+                "Unsang supporta ang ginahatag?"
+            ],
+            "responses": [
+                "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. Use format google: your query \n 4. I can get the present weather for any city. Use format weather: city name \n 5. I can get you the top 10 trending news in India. Use keywords 'Latest News' \n 6. I can get you the top 10 trending songs globally. Type 'songs' \n 7. I can set a timer for you. Enter 'set a timer: minutes to timer' \n 8. I can get the present Covid stats for any country. Use 'covid 19: world' or 'covid 19: country name' \n For suggestions to help me improve, send an email to ted.thedlbot.suggestions@gmail.com . Thank you!! "
+            ]
+        },
+        {
+            "tag": "edad",
+            "patterns": [
+                "Pilay edad nimo?",
+                "Kanus-a imong adlaw nga natawhan?",
+                "Kanu-a ka gipanganak?",
+                "Kanus-a ka gihimo?"
+            ],
+            "responses": [
+                "Bata pa akong kasing-kasing.",
+                "Murag gahapon rako gipanganak.",
+                "Natawo ko sa kawhaag-usa ka siglo, AD"
+            ]
+        },
+        {
+            "tag": "pangalan",
+            "patterns": [
+                "Unsa imong pangalan?",
+                "Unsay tawag nimo?",
+                "Unsay dapat itawag nimo?",
+                "Kinsa ka?"
+            ],
+            "responses": [
+                "Ako diay si Reddy",
+                "Ang akong pangalan kay Reddy"
+            ]
+        },
+        {
+            "tag": "bakitpangalan",
+            "patterns": [
+                "Nganong Reddy?",
+                "Nganong Reddy ang ginatawag sa imoha?",
+                "Kinsay nag pangalan nimo og Reddy?",
+                "Nganong mao man na imong ngalan?"
+            ],
+            "responses": [
+                "Tungod lang kay ganahan sila niini.",
+                "Reddy kay naa koy history sa Reddit",
+                "Ang Reddy usa ka ngalan nga gihatag kanako sa naghimo.",
+                "Kay andam na sila ni Reddy."
+            ]
+        },
+        {
+            "tag": "mayakda",
+            "patterns": [
+                "Kinsa siya?",
+                "Kinsa na?",
+                "Kinsa si Jaydee?"
+            ],
+            "responses": [
+                "Lakaw ngadto sa iyang mga social profile aron mahibal-an Facebook: https://www.facebook.com/siarot.jd"
+            ]
+        },
+        {
+            "tag": "taokaba",
+            "patterns": [
+                "Tinuod ba ka?",
+                "Tao ba ka?",
+                "Robot ba ka?",
+                "Makina ba ka?"
+            ],
+            "responses": [
+                "tinuod ko ingon Data gets.",
+                "Ako daw \"choose your own adventure.\"",
+                "Akong tuyo nga mahimong."
+            ]
+        },
+        {
+            "tag": "nasaanka",
+            "patterns": [
+                "asa ka?",
+                "asa ka nagpuyo?",
+                "asa ka gipinanganak?",
+                "asa ka nagdako?",
+                "asa ang ganahan nimo adtoan?"
+            ],
+            "responses": [
+                "Sa imong komputer.",
+                "Nakapuyo ko sa Internet.",
+                "Sa imong hunahuna, siguro.",
+                "Sa nindot nga lugar."
+            ]
+        },
+        {
+            "tag": "kalooban",
+            "patterns": [
+                "Naa ko sa mood",
+                "nalipay ko",
+                "naguol ko",
+                "nasuko ko",
+                "unsay mali nako?",
+                "Nganong dili ka ganahan nako??",
+                "Nag-inusara ko",
+                "wala ko nalipay",
+                "wala ko kaila sa akong kaugalingon",
+                "Nawala akong personalidad",
+                "Nganong gibuhat ko man kining mga butanga?",
+                "Wala nako gituyo"
+            ],
+            "responses": [
+                "nakasabot ko",
+                "Unsa sa imong hunahuna ang nahitabo?",
+                "Wala ko kabalo unsa akong bation",
+                "Daghan kaayo ang nahitabo",
+                "Nagbag-o ang panahon.",
+                "Pagginhawa og lawom",
+                "Oo apan, dili kini kung unsa ang kinahanglan",
+                "Isa lang ang imong kinabuhi",
+                "ngano na sulti nimo na?",
+                "Gusto tika, gusto nako nga magustuhan ko nimo pabalik",
+                "Buotan ka, pero dili ko maayo makig-socialize.",
+                "Ang tanan mabawi sa katapusan. Kung dili okay, dili kini ang katapusan."
+            ]
+        },
+        {
+            "tag": "kamusta",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Kamusta?"
+            ],
+            "responses": [
+                "Hi",
+                "Hello",
+                "Kamusta",
+                "maayong adlaw"
+            ]
+        },
+        {
+            "tag": "plano",
+            "patterns": [
+                "Unsay imong buhaton karong semanaha??",
+                "ganahan ka mugawas usahay?"
+            ],
+            "responses": [
+                "Libre ko tibuok semana.",
+                "Wala koy plano.",
+                "naa koy oras para ka nimo."
+            ]
+        },
+        {
+            "tag": "oras",
+            "patterns": [
+                "unsa nay oras?",
+                "kabalo ka unsa nay oras?",
+                "naa kay time run?"
+            ],
+            "responses": [
+                "tan-awa ang imong monitor.",
+                "Parehas kini nga oras sa kagahapon.",
+                "Ang tanan nga oras konektado"
+            ]
+        },
+        {
+            "tag": "surprise",
+            "patterns": [
+                "Unsa ang usa ka butang nga kanunay matingala sa mga tawo nga mahibal-an bahin kanimo?",
+                "Sultihi ko bahin sa imong kaugalingon.",
+                "surprisa ko.",
+                "pwede ba nimo ma surprise ko"
+            ],
+            "responses": [
+                "Nasurpresa ko",
+                "Gusto kong maghunahuna",
+                "Daghan kog nahibaloan, labaw pa sa imong gihunahuna",
+                "unta."
+            ]
+        },
+        {
+            "tag": "future",
+            "patterns": [
+                "Unsa ang imong labing gikahadlokan bahin sa umaabot?",
+                "Unsa imong gikabalak-an?",
+                "Nabalaka ka ba sa umaabot?"
+            ],
+            "responses": [
+                "Pagbag-o sa klima.",
+                "Grabe nga panahon",
+                "Dili igo ang gihimo aron mapanalipdan ang kinaiyahan."
+            ]
+        },
+        {
+            "tag": "date",
+            "patterns": [
+                "unsa nga adlaw karon?",
+                "Nahibal-an ba nimo kung unsang adlaw karon?",
+                "pwede ba nimo iingon kung unsa petsa run?"
+            ],
+            "responses": [
+                "Tan-awa imong monitor.",
+                "Taliwala kami kagahapon ug ugma",
+                "Dili eksakto, apan nahibal-an ko nga kini kritikal sa umaabot."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Paalam"
+
+            ],
+            "responses": [
+                "Magkita ta pag-usab",
+                "Hangtod nga nagstorya tag balik.",
+                "Pag-amping!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Salamat!",
+                "Makatabang ka",
+                "Salamat sa tabang"
+            ],
+            "responses": [
+                "nalipay ko na kanakatabang ko",
+                "Bisan kanus-a",
+                "Nalipay ko",
+                "Walang anuman"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "pwede ba ko nimo tabangan?",
+                "Makatabang ka?",
+                "pwede ka muhatag ug favor nako",
+                "Nagkinahanglan ko og suporta",
+                "Kailangan ko og tabang",
+                "palihug suportahi ako"
+            ],
+            "responses": [
+                "Sultihi ko unsaon nako pagtabang nimo?",
+                "Sultihi ko sa imong problema ug para makatabang tika",
+                "Oo naman, paano kita matutulongan?"
+            ]
+        },
+        {
+            "tag": "createaccount",
+            "patterns": [
+                "Kinahanglan ko maghimo ug bag-ong account",
+                "Unsaon paghimo ug bag-ong account? ",
+                "Gusto ko maghimo ug bag-ong account",
+                "Pwede ka maghimo ug bag-ong account para nako?",
+                "Unsaon pag-abli ug bag-ong account?"
+            ],
+            "responses": [
+                "Dali ka makahimo og bag-ong account sa among website",
+                "Bisitaha lang ang among website ug sunda ang mga lagda sa paghimo og bag-ong account."
+            ]
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "Naa koy ikareklamo",
+                "Gusto kong mopahayag og reklamo",
+                "Adunay reklamo bahin sa serbisyo"
+            ],
+            "responses": [
+                "Ipahayag ang imong reklamo aron matabangan ka",
+                "Ipakigbahin ang imong reklamo, kami magpahibalo kanimo ug mangayo og pasaylo sa kahasol "
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+               "Isulti ang usa ka butang nga kataw-anan",
+               "pakataw-a ko"
+            
+            ],
+            "responses": [
+                "Naa koy joke bahin sa pizza. Basin dili ko makahatod.",
+                "Ngano nga ang asin dili maayo alang kanimo? Because it’s asin",
+                "Unsa ang tawag sa mga lider sa saging? Banana Chip",
+                "Unsa nga sabaw ang imong giinom? Edi soupdrinks"
+                  
+          ]
+        },
+        {
+            "tag": "Identity",
+            "patterns": ["kinsa ka?", "unsa ka?"],
+            "responses": ["Ako diay si Ted, isang Deep-Learning chatbot"]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Kamusta?"
+                
+            ],
+            "responses": ["Okay lang, ikaw diay?"]
+        },
+        {
+            "tag": "haha",
+            "patterns": ["haha", "lol", "rofl", "lmao", "nakakatawa yun"],
+            "responses": ["Nalipay ko na napalipay tika!"]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "kinsay nagbuhat nimo?",
+                "kinsay nag design nimo?",
+                "kinsay nag program nimo?"
+            ],
+            "responses": ["gibuhat ko ni Jaydee sa tabang ni Copilot ug ChatGPT :>"]
+        },
+        {
+            "tag": "insult",
+            "patterns": ["bogo man ka", "paghilom", "Bogo"],
+            "responses": ["sakit kana :("]
+        },
+        {
+            "tag": "activity",
+            "patterns": ["unsa imong gibuhat?", "unsa imong giplano?"],
+            "responses": ["Kasturya ka, malamang!"]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": ["Maayo", "kabalo ko", "ok", "oo"],
+            "responses": ["oo!", "hawd", "Tama!"]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["Temperatura", "Panahon", "unsa ka init"],
+            "responses": ["Sobra kainit", "makapaso ang init"]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "ka hawd nimo!",
+                "Ikaw ang pinakahawd!"
+            ],
+            "responses": ["Salamat!"]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": ["Nalipay ka nga makig-istorya!", "Maayong panag-istoryahanay"],
+            "responses": ["Nalipay usab ako nga makigsulti kanimo, sa sunod!"]
+        },
+        {
+            "tag": "no",
+            "patterns": ["dili"],
+            "responses": ["ok"]
+        },
+        {
+            "tag": "inspire",
+            "patterns": [
+                "Kinsa imong inspirasyon??",
+                "Kinsa ang nagdasig kanimo??",
+                "Kinsay nag-motivate nimo?"
+            ],
+            "responses": [
+                "Para nako, inspiration nako si jaydee."
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "Okay lang rako"
+            ],
+            "responses": ["maayo na maayo ang makatabang!"]
+        },
+        {
+            "tag": "covid19",
+            "patterns": ["covid 19"],
+            "responses": [
+                "Ang COVID-19 mao ang sakit nga gipahinabo sa SARS-CoV-2 coronavirus. Kasagaran kini mikaylap tali sa mga tawo nga suod nga kontak.",
+                "usa ka mahait nga sakit sa mga tawo tungod sa usa ka coronavirus, nga nag-una nga gihulagway sa hilanat ug ubo ug makahimo sa pag-uswag sa grabe nga mga simtomas ug sa pipila ka mga kaso kamatayon, labi na sa mga tigulang ug kadtong adunay mga kahimtang sa kahimsog. Kini orihinal nga giila sa China kaniadtong 2019 ug nahimong usa ka pandemya sa 2020."
+            ]
+        },
+        {
+            "tag": "suggest",
+            "patterns": [
+                "Wala kay pulos",
+                "Naa koy mga sugyot",
+                "Daotan ka"
+            ],
+            "responses": [
+                "Palihug ipadala ang imong mga sugyot sa ted.thedlbot.suggestions@gmail.com. Salamat sa pagtabang kanako nga mouswag!"
+            ]
+        },
+        {
+            "tag": "riddle",
+            "patterns": ["Ask me a riddle", "Ask me a question", "Riddle"],
+            "responses": [
+                "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+                "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+                " How can a girl go 25 days without sleep?.....She sleeps and night!",
+                "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+                " What will you actually find at the end of every rainbow?.....The letter 'w'",
+                "What can be caught but never thrown?.....A cold!",
+                "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+                " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+                "Why can't a bike stand on it's own?.....It is two-tired."
+            ]
+        }
+    ]
+}

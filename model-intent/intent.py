@@ -11,12 +11,19 @@ import time
 
 os.system("cls")
 working_directory = "model-intent/"
-filename = working_directory + "intent.json"
+filenames = [intent_file for intent_file in os.listdir(working_directory) if intent_file.endswith('.json') and intent_file.startswith('intent-')]
 
-with open(filename, "r") as json_file:
+print("Select intent file: ")
+for i, names  in enumerate(filenames):
+    print(f"({i}) {names}")
+    
+choice = int(input('choice: '))
+
+with open(os.path.join(working_directory, filenames[choice]), "r") as json_file:
     data = json.load(json_file)
     Intents = data['intents']
-
+    
+os.system("cls")
 
 # test if intent is properly configured
 Tags = []
